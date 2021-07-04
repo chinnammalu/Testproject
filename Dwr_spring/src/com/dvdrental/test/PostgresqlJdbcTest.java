@@ -15,6 +15,9 @@ public class PostgresqlJdbcTest {
 	    	 String pwd="admin";
 	    	 Class.forName(driver);
 	    	 System.out.println("loading==");
+			
+	      System.out.println("hellooo==");
+
 	    	 
 	    	 
 	    	 Connection con = DriverManager.getConnection("jdbc:postgresql://localhost/dvdrental?user=postgres&password=admin");
